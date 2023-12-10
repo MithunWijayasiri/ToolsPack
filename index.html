@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- import google icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
     <body>
-        
+        <div class="container">
+            <h2>Password Generator</h2>
+            <div class="wrapper">
+               <div class="input-box">
+                <!-- cant use readonly because it makes text clickable. so use disabled. -->
+                     <input type="text" value="kXP&cJ$xQcN9" disabled>
+                     <span class="material-icons">copy_all</span>
+               </div> 
+               <div class="pass-indicator"></div>
+               <div class="pass-length">
+                <div class="details">
+                    <label for="" class="title">Password Length</label>
+                </div>
+               </div>
+            </div>
+        </div>
     </body>
 </html>
