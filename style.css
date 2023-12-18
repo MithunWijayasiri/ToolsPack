@@ -13,8 +13,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #161A30;
+    background: rgb(22,26,48);
+    background: linear-gradient(90deg, rgba(22,26,48,1) 15%, rgba(49,48,77,1) 50%, rgba(84,83,117,1) 76%, rgba(86,94,108,1) 100%);
 }
+
 .container{
     width: 450px;
     background: #fff;
